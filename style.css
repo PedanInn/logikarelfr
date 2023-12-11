@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(175deg, #FFF 31%, #DDB1FF 56.91%, #F00 177.03%);
+    margin: 0px;
+}
+
+.PiH {
+    font-size: 86px;
+    background: linear-gradient(91deg, #FF6464 0%, #FFCA43 100%);
+    color: white;
+    padding-left: 60px;
+    padding-top: 200px;
+    padding-bottom: 25px;
+    margin-top: 0px;
+    height: 300px;
+    text-shadow: 2px 0 0px black, 
+        0 2px 0px black, 
+        -2px 0 0px black, 
+        0 -2px 0px black;
+}
+
+.ava {
+    width: 606px;
+    position: absolute;
+    top: 90px;
+    right: -90px;
+    border-radius: 50%;
+    transition: 0.4s ease-out;
+}
+
+.ava:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+a {
+    text-decoration: none;
+    color: #FF8F57;
+}
+
+nav a:first-child {
+    background: linear-gradient(90deg, #F90 0%, #B65353 100%);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.00);
+    position: absolute;
+    top: 155px;
+    text-align: center;
+    left: -150px;
+    transition: 0.4s ease-out;
+    position: fixed;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 170px;
+    opacity: 0.4;
+}
+
+.aSecond {
+    background: linear-gradient(90deg, #FFCC68 0%, #D4FFF7 100%);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.00);
+    position: absolute;
+    top: 205px;
+    width: 170px;
+    text-align: center;
+    left: -150px;
+    transition: 0.4s ease-out;
+    position: fixed;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.4;
+}
+
+nav a:first-child:hover {
+    color: black;
+    left: 10px;
+    box-shadow: 0 0 25px black;
+    opacity: 1;
+}
+
+.aSecond:hover {
+    color: black;
+    left: 10px;
+    box-shadow: 0 0 25px black;
+    opacity: 1;
+}
+
+.h1Main {
+    text-align: center;
+    font-size: 52px;
+    margin-top: 90px;
+}
+
+.AboutMe {
+    font-size: 24px;
+    margin-top: 70px;
+    background-color: white;
+    width: 1200px;
+    padding: 20px;
+    color: #FF8F57;
+    margin-left: 40px;
+}
+
+.AboutPreview {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+}
+
+.AboutPack {
+    margin-top: 850px;
+}
+
+.AboutPackLeft {
+    float: left;
+    margin-left: 60px;
+}
+
+.AboutPackRight {
+    float: right;
+    margin-right: 60px;
+}
+
+.APf {
+    float: left;
+    margin-left: 60px;
+    width: 100%;
+}
+
+.Nah {
+    float: right;
+    margin-right: 110px;
+}
+
+.sborka {
+    margin-left: 60px;
+}
+
+.center {
+    text-align: center;
+}
+
+.DoItOne {
+    font-size: 52px;
+    margin-left: 60px;
+}
+
+.CF {
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    margin-top: 150px;
+    font-size: 36px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.4s ease-out;
+}
+
+.CF:hover {
+    box-shadow: 0px 0px 25px 0 black;
+    font-size: 38px;
+}
+
+.imgSet {
+    float: right;
+    margin-right: 60px;
+    margin-top: 0px;
+}
+
+.F {
+    float: left;
+    margin-left: 60px;
+    width: 100%;
+}
+
+.Video {
+    text-align: center;
+}
+
+iframe {
+    border-radius: 25px;
+    width: 1000px;
+    height: 550px;
+}
+
+.marg {
+    margin-left: 60px;
+}
+
+#WhatNeed {
+    margin-left: 60px;
+}
+
+.orange {
+    color: #FF8F57;
+}
+
+.blick {
+    width: 500px;
+    transition: 0.4s ease-out;
+}
+
+.imgcenter {
+    text-align: center;
+}
+
+.imgLine {
+    width: 350px;
+    border-radius: 20px;
+    height: 390px;
+}
+
+.imgLine2 {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.pLine {
+    display: flex;
+    justify-content: space-around;
+}
+
+.DoH {
+    float: left;
+    width: 100%;
+}
+
+.DoProject {
+    float: left;
+    margin-left: 40px;
+}
+
+.soe {
+    float: right;
+    margin-right: 220px;
+}
+
+.blickimg {
+    float: left;
+    margin-left: 60px;
+}
+
+.EndEye {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.DoItTwo {
+    margin-left: 60px;
+    font-size: 52px;
+}
+
+.blick:hover {
+    width: 600px;
+    box-shadow: 0 0 25px 8px black;
+    border-radius: 20px;
+}
+
+.DoItThree {
+    float: left;
+    font-size: 52px;
+    width: 50%;
+    margin-left: 60px;
+}
+
+.color {
+    float: left;
+    margin-left: 60px;
+    width: 65%;
+}
+
+
+.colorIMG {
+    width: 426px;
+    margin-right: 0px;
+}
+
+.colorCenter {
+    text-align: center;
+}
+
+.lineOne {
+    float: left;
+    width: 397px;
+    margin-left: 220px;
+    border-radius: 30px;
+}
+
+.lineTwo {
+    float: right;
+    width: 457px;
+    height: 461px;
+    margin-right: 200px;
+    border-radius: 30px;
+}
+
+.slider {
+    width: 1300px;
+    height: 715px;
+    overflow: hidden;
+}
+
+.middle {
+    position: absolute;
+    top: 1300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 30px;
+    height: 8px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #fff;
+    opacity: 0.6;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.bar:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 25%;
+    transition: all 0.6s ease;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+    margin-left: -25%;
+}
+
+#r3:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+.DoItFour {
+    float: left;
+    font-size: 52px;
+    width: 100%;
+    margin-top: 170px;
+    margin-left: 60px;
+}
+
+.TudaSuda {
+    float: left;
+    margin-left: 60px;
+}
+
+.textIMG {
+    width: 643px;
+    float: right;
+    margin-right: 60px;
+}
+
+.four {
+    width: 100%;
+}
+
+.styleAfter {
+    margin-top: 100px;
+    float: right;
+    margin-right: 110px;
+}
+
+.fourOne {
+    width: 100%;
+    float: left;
+}
+
+.textStyleIMG {
+    float: left;
+    width: 710px;
+    margin-top: 140px;
+    margin-left: 60px;
+}
+
+.End {
+    text-align: center;
+    font-size: 36px;
+    margin: 0 auto;
+    
+}
+
+.endDiv {
+    float: left;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.endImg {
+    width: 1040px;
+    margin-top: 96px;
+    border-radius: 42px;
+}
+
+.endImgP {
+    text-align: center;
+}
+
+.EndEnd {
+    font-size: 48px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.end {
+    float: left;
+    width: 100%;
+    margin-top: 152px;
+    margin-bottom: 118px;
+}
+
+footer img {
+    width: 57px;
+    float: left;
+}
+
+footer {
+    background: linear-gradient(91deg, #FF6464 0%, #FFCA43 100%);
+    float: left;
+    width: 100%;
+}
+
+.youtube {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+
+.instagram {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+
+.discord {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+
+.telegram {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+
+footer p {
+    color: white;
+}
+
+.avatarFoot {
+    border-radius: 50%;
+    width: 250px;
+    position: absolute;
+    top: 8230px;
+    right: 60px;
+}
